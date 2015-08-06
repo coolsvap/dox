@@ -1,6 +1,8 @@
 testing:
   images:
-    - infra/trusty
+    - coolvap/dox:trusty
+    - coolvap/dox:centos7
+    - coolvap/dox:f20
   add:
     - requirements.txt
     - test-requirements.txt
